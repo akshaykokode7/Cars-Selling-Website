@@ -113,6 +113,11 @@ html {
     justify-content: center;
 }
 
+.login-form-container.active {
+    top: 0;
+    opacity: 1;
+}
+
 .login-form-container form {
     padding: 2rem;
     margin: 2rem;
@@ -164,6 +169,24 @@ html {
     color: var(--yellow);
     text-decoration: underline;
 }
+
+.login-form-container #close-login-form {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 
 
 
